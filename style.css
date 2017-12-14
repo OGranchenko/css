@@ -1,6 +1,5 @@
 body{
-	margin: 0;
-	margin-left: 100px;
+	margin: 0 0 0 100px;
 	padding: 0;
 	min-width: 500px;
 	width: 700px;
@@ -96,7 +95,7 @@ div.test{
 }
 .form{
 	width: 80%;
-        float:left;
+	float: right;
 }
 input[type=text]{
 	border: 1px solid #A9A9A9;
@@ -105,14 +104,15 @@ input[type=text]{
 
 }
 button{
-	/*border: 1px solid #A9A9A9;*/
+	border: 1px solid #A9A9A9;
+	box-sizing: border-box;
 	width: 32px;
-	background: #f7f5f5;
+	background: #EDECEA;
 	height: 32px;
-	box-shadow: inset 0px 0px 3px rgba(0,0,0,0.3);
-	border-radius: 4px;
-
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.2);
+	border-radius: 2px;
 }
+
 table{
 	border-spacing: 1px;
 }
@@ -121,4 +121,8 @@ button[name=val0]{
 }
 button[type=submit]{
 	height: 67px;
+}
+.form-wrap{
+	width: 170px;
+	margin: 0 auto;
 }
